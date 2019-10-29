@@ -282,8 +282,8 @@ void printDataBitmap(int fsid){
 
 int main(){
 	currid=0;
-	char buff1[block_size]="this is test 1 data for file 1";
-	char buff2[block_size] = "this is test 2 data for file 1";
+	char buff1[4096]="this is test 1 data for file 1";
+	char buff2[4096] = "this is test 2 data for file 1";
 	char ans1[block_size],ans2[block_size];
 	char ptr[100] = "file";
 	createSFS("file");
